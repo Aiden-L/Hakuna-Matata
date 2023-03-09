@@ -1,5 +1,22 @@
 # Hakuna-Matata
-神秘项目，敬请期待
+
+#### 介绍
+> 当代人每天都面临着生活各方面带来的巨大心理压力，本项目旨在通过通过名人金句开导遇到挫折的朋友
+> 
+> 遇到困难时产生困惑，焦虑等负面情绪是很正常的，但不要因此而气馁，停止前进，要及时调整心态，最重要的是不要放弃，风雨终将过去，迎接我们的必是绚烂的晴天
+> 
+> 很喜欢《狮子王》里的一首歌 Hakuna Matata，在此引用为项目名，无论发生了什么，都希望大家能乐观面对每一天
+> 
+> Hakuna Matata, No Need to Worry, Everything Will be Fine
 
 ## 希望大家每天都能有个好心情
 [Click Here to Learn More about Hakuna Matata](https://www.youtube.com/watch?v=v34w65U98gI)
+
+#### 软件架构
+* Python 3.10
+* Chat-GPT 3.5
+
+#### 安装说明
+1. `pip install -r requirements.txt`
+
+
