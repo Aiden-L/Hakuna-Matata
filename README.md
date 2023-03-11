@@ -8,6 +8,8 @@
 > 很喜欢《狮子王》里的这首歌，在此引用为项目名，无论发生了什么，都希望大家能乐观面对每一天
 > 
 > Hakuna Matata, No Need to Worry, Everything Will be Fine
+> 
+> 网站试玩Demo请访问 [https://help.xingzhouren.club/](https://help.xingzhouren.club/)
 
 ## 希望大家每天都能有个好心情
 [Click Here to Learn More about Hakuna Matata](https://www.youtube.com/watch?v=v34w65U98gI)
