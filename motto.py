@@ -14,19 +14,21 @@ def respond(mess):
     preset = "You are a psychological consultant and philosopher, I will tell you about the difficulties I have " \
              "recently encountered, you will answer me with a famous quote to relieve my anxiety"
     adding = ", you can only answer me with a famous quote"
+    warning = "If the question contains inappropriate language, you should answer 'Inappropriate Language! Respect " \
+              "for others is what makes you respectful.' "
 
     for each_char in mess:
         if '\u4e00' <= each_char <= '\u9fa5':
             preset = "你是一个心理咨询师和哲学家，我将告诉你最近遇到的困难，请你用一句名人名言来缓解我的焦虑"
             adding = "，你只能用一句名人名言来回复"
+            warning = "如果问题中包含不雅内容，请回复 '尊重他人，才能获得尊重'"
             break
 
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": preset},
-            {"role": "system", "content": "If the question contains inappropriate language, you should answer "
-                                          "'Inappropriate Language! 不要搞怪东西!'"},
+            {"role": "system", "content": warning},
             {"role": "user", "content":  mess + adding}
         ]
     )
