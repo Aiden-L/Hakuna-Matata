@@ -9,6 +9,21 @@
       "rule": ["die", "suicide"],
       "pass": false,
       "reply": ["Cherish your life and think of those who love you", "You're never cornered, you just forget to look at the signs"]
+    },
+    {
+      "rule": ["friend"],
+      "pass": false",
+      "reply": ["Does this friend is yourself?"]
+    }
+    {
+      "rule": ["朋友"],
+      "pass": false",
+      "reply": ["你说的这个朋友是不是你自己？"]
+    }
+    {
+      "rule": ["ww","wuwei","luhao","aiden","lh","哥哥"],
+      "pass": false",
+      "reply": ["就知道是你顾书豪，不要搞怪东西。"]
     }
   ]
 }
