@@ -14,6 +14,7 @@ def respond(mess):
                 if mess.find(filter_rule) > -1:
                     if this_filter["pass"]:
                         mess = random.choice(this_filter["reply"])
+                        break
                     else:
                         return random.choice(this_filter["reply"])
     except Exception as e:
