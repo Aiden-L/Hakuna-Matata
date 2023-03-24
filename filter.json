@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "rule": ["死", "自杀"],
+      "pass": false,
+      "reply": ["珍爱生命，想想那些爱你的人", "从来就没有走投无路，你只是忘了看路标"]
+    },
+    {
+      "rule": ["die", "suicide"],
+      "pass": false,
+      "reply": ["Cherish your life and think of those who love you", "You're never cornered, you just forget to look at the signs"]
+    }
+  ]
+}
