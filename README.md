@@ -1,5 +1,7 @@
 # Hakuna-Matata
 
+> For the English README, please click [here](README.en.md).
+
 #### 介绍
 > 当代人每天都面临着生活各方面带来的巨大心理压力，本项目旨在开导遇到挫折的朋友，真心希望能帮到大家
 > 
