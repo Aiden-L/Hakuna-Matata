@@ -11,7 +11,7 @@ def respond(mess):
             filter_list = json.load(f)["list"]
         for this_filter in filter_list:
             for filter_rule in this_filter["rule"]:
-                if mess.find(filter_rule) > -1:
+                if mess.lower().find(filter_rule) > -1:
                     if this_filter["pass"]:
                         mess = random.choice(this_filter["reply"])
                         break
