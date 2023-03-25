@@ -133,3 +133,6 @@ dmypy.json
 
 # token
 token.json
+
+# test
+test.py

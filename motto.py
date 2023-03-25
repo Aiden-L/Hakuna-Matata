@@ -13,8 +13,10 @@ def respond(mess):
             for filter_rule in this_filter["rule"]:
                 if mess.lower().find(filter_rule) > -1:
                     if this_filter["pass"]:
-                        mess = random.choice(this_filter["reply"])
-                        break
+                        if random.random() > 0.9:
+                            return random.choice(this_filter["reply"])
+                        else:
+                            break
                     else:
                         return random.choice(this_filter["reply"])
     except Exception as e:

@@ -36,8 +36,8 @@
 1. 名人名言生成demo: `motto.py`
 2. 配置过滤器 `filter.json` 说明
    - "rule": (list) 需要匹配的关键词列表，当输入匹配到其中之一时即可应用规则，英文规则请用小写字符书写(匹配时会忽略大小写)
-   - "pass": (boolean) `true/false` 匹配到关键词后，是否将reply输入GPT，如为`true`，则将reply结果输入GPT，如为`false`，则将reply结果直接返回
-   - "reply": (list) 替换输入/回复的列表，将随机选取列表中的一项作为输入/返回为回复(输入/回复取决于pass的值)
+   - "pass": (boolean) `true/false` 匹配到关键词后，是否将用户输入传入GPT，如为`true`，则问题有概率不输入GPT，直接返回答案，如为`false`，则将reply结果直接返回
+   - "reply": (list) 替换回复的列表，将随机选取列表中的一项作为回复(是否结合GPT回复取决于pass的值)
 
 #### 更新日志
 - 0.0.1: 新增名人名言接口，优化项目格式，引入Chat-GPT接口
