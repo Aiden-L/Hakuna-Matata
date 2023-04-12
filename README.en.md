@@ -9,7 +9,7 @@
 > 
 > Hakuna Matata, No Need to Worry, Everything Will be Fine
 > 
-> For a demo of the website, please visit [https://help.xingzhouren.club/](https://help.xingzhouren.club/static/index.html#/motto)
+> For a demo of the website, please visit [https://help.xingzhouren.club/static/index.html#/motto](https://help.xingzhouren.club/static/index.html#/motto)
 
 #### Words from the author
 > The original intention of doing this project was to help friends around me who were under a lot of stress, to inspire people with quotes and relieve stress, but halfway through the project, I thought it was an extreme failure. When a person's mood is at a low point, a correct word of encouragement is of little use, psychological problems are very difficult to solve, and what use can a word be. Although I was well aware of this, I still took the project on, and when I asked my friends around me to test it, the whole living ability of everyone was really far beyond my imagination. In the face of nonsensical questions, the AI's serious answers were more like a mockery of the difficulty itself, but in fact that's exactly the kind of spirit we need, to mock the difficulty instead of fearing it and stopping! When I saw the smiles on my friends' faces as they teased my AI, I felt that, in a sense, the project had been a success. Thank you all for your support, and stay tuned for more interesting updates on this project.
